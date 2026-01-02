@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ꜱʜɪᴠᴀɴɪ ꜱᴘᴏʀᴛꜱ Qᴜᴇᴇɴ</title>
+
+ <script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', 'YOUR_PIXEL_ID');
+fbq('track', 'PageView');
+</script>
+
+</head>
+
+<body style="
+margin:0;
+font-family: Arial, sans-serif;
+background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+url('img/1a45f7c6-782b-4c38-ae3a-95db511d2ae0.jpg');
+background-size: cover;
+background-position: center;
+color: white;
+">
+
+<!-- MAIN WRAPPER -->
+<div style="
+max-width: 420px;
+margin: auto;
+padding: 30px 15px;
+text-align: center;
+">
+
+<!-- ================= EDIT SECTION START ================= -->
+
+<!-- LOGO -->
+<img src="img/WhatsApp Image 2025-12-23 at 11.33.34 AM.jpeg"
+style="width:110px; margin-bottom:15px;">
+
+<!-- BRAND NAME -->
+<h1 style="color:#ff9800; letter-spacing:2px; margin:10px 0;">
+SAMXBET
+</h1>
+
+<!-- TAGLINE -->
+<p style="font-size:15px; margin-bottom:20px; color:#ffffffcc;">
+🔥 Live match prediction for cricket trading 🔥
+</p>
+<p style="font-size:14px; margin-bottom:20px; color:#ffffffcc;">
+REAL-TIME ACCURATE ANALYSIS
+</p>
+ 
+<!-- FEATURES -->
+<div style="
+background:#000;
+padding:15px;
+border-radius:12px;
+text-align:left;
+font-size:15px;
+margin-bottom:20px;
+color:white;
+border:1px solid #2196f3;
+box-shadow: 0 0 12px rgba(33,150,243,0.6);
+">
+• Situation-based tracking during gameplay<br><br>
+• Focused on consistency, not random tips
+</div>
+</div>
+
+<!-- PREDICTION HISTORY -->
+<h2 style="color:#ff3b3b; margin-bottom:10px;">
+Prediction History
+</h2>
+
+<div style="
+background:#000;
+padding:15px;
+border-radius:12px;
+text-align:left;
+font-size:16px;
+margin-bottom:25px;
+color:white;
+border:1px solid #ff3b3b;
+box-shadow: 0 0 12px rgba(255,59,59,0.6);
+">
+• BBL: 42/44 pass<br>
+• IPL 2025: 72/74 pass<br>
+• T20 World Cup: 53/55 pass
+</div>
+
+ <!-- 🔴 TIMER HEADING -->
+<h4 style="color:red; margin-bottom:5px;">
+FREE JOINING ENDS IN
+</h4>
+
+<!-- 🔴 TIMER -->
+<div id="timer"
+style="
+font-size:32px;
+font-weight:bold;
+color:red;
+margin-bottom:20px;
+">
+00:30
+</div>
+<a id="joinLink" href="https://t.me/+DymfiH4mjRk2YmY1">
+
+<!-- JOIN BUTTON -->
+<a id="joinLink"
+onclick="fbq('track','Lead');" 
+href="https://t.me/+DymfiH4mjRk2YmY1"
+style="
+display:block;
+background:#0d6efd;
+color:white;
+padding:15px;
+border-radius:30px;
+font-size:18px;
+font-weight:600;
+text-decoration:none;
+margin-bottom:25px;
+box-shadow:
+0 0 10px rgba(13,110,253,0.8),
+0 0 25px rgba(13,110,253,0.6);
+">
+CLICK TO JOIN
+</a>
+
+<!-- ACCURACY -->
+<h2 style="color:#ff3b3b; margin:0;">
+99% ACCURACY
+</h2>
+<p style="margin-top:5px; font-size:14px;">
+WITH BEST RESULT
+</p>
+
+
+<!-- ================= EDIT SECTION END ================= -->
+
+</div>
+ 
+ <!-- ⏱ TIMER SCRIPT -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    let timeLeft = 30;
+    let timer = document.getElementById("timer");
+    let joinLink = document.getElementById("joinLink").href;
+
+    let countdown = setInterval(function () {
+
+        let seconds = timeLeft < 10 ? "0" + timeLeft : timeLeft;
+        timer.innerHTML = "00:" + seconds;
+
+        if (timeLeft === 0) {
+            clearInterval(countdown);
+         
+         // 🔴 META PIXEL EVENT ON TIMER END
+            fbq('track', 'CompleteRegistration');
+         
+            window.location.href = joinLink;
+        }
+
+        timeLeft--;
+
+    }, 1000);
+
+});
+</script>
+
+
+</body>
+</html>
